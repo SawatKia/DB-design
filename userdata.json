@@ -1,0 +1,422 @@
+{
+  "userUniqueId": "2A7F5B",
+  "dateCreated": "2021-05-06T14:39:54.981Z",
+  "userName": "Sawatastic",
+  "hashedPassword": "65ce6444ca85d6e94220aaba76677727",
+  "dateOfBirth": "2000-03-14T07:46:36.611Z",
+  "bankAccounts": [
+    {
+      "bankAccountId": "01-011-0001-0001",
+      "bankAccountDisplayName": "ttb ดอก 2%",
+      "bankAccountName": "นาย สวรรษ ล",
+      "bankName": "ธนาคารทหารไทยธนชาต (TH-TTB)",
+      "currentBalance": 500.00,
+      "bankAccountTransactions": [
+        {
+          "bankAccountTransactionUniqueId": "011-1F8A41",
+          "transactionDatetime": "2023-01-01T08:00:00.000Z",
+          "transactionType": "Deposit",
+          "amount": 100.00,
+          "note": "Deposit from Toss"
+        },
+        {
+          "bankAccountTransactionId": "011-8D76D6",
+          "transactionDatetime": "2023-01-02T08:00:00.000Z",
+          "transactionType": "Withdraw",
+          "amount": 50.00,
+          "note": "Withdraw for daily expenses"
+        }
+      ]
+    },
+    {
+      "bankAccountId": "01-012-0001-0001",
+      "bankAccountDisplayName": "บัญชีเงินเดือน",
+      "bankAccountName": "นาย สวรรษ ล",
+      "bankName": "ธนาคารกรุงเทพ (TH-KTB)",
+      "currentBalance": 500.00,
+      "bankAccountTransactions": [
+        {
+          "bankAccountTransactionId": "011-7B19E8",
+          "transactionDatetime": "2023-01-03T08:00:00.000Z",
+          "transactionType": "Deposit",
+          "amount": 100.00,
+          "note": "Deposit from Lottery"
+        },
+        {
+          "bankAccountTransactionId": "011-18AAB4",
+          "transactionDatetime": "2023-01-04T08:00:00.000Z",
+          "transactionType": "Withdraw",
+          "amount": 50.00,
+          "note": "Withdraw for travelling"
+        },
+        {
+          "bankAccountTransactionId": "011-F9DCE5",
+          "transactionDatetime": "2023-01-05T08:00:00.000Z",
+          "transactionType": "Deposit",
+          "amount": 80.00,
+          "note": "Deposit for savings"
+        }
+      ]
+    },
+    {
+      "bankAccountId": "01-025-0001-0001",
+      "bankAccountDisplayName": "บัญชีซื้อขายกองทุน",
+      "bankAccountName": "นาย สวรรษ ล",
+      "bankName": "ธนาคารกรุงศรีอยุธยา (TH-BAY)",
+      "currentBalance": 500.00,
+      "bankAccountTransactions": [
+        {
+          "bankAccountTransactionId": "011-000001",
+          "transactionDatetime": "2023-01-06T08:00:00.000Z",
+          "transactionType": "Deposit",
+          "amount": 200.00,
+          "note": "Initial deposit"
+        },
+        {
+          "bankAccountTransactionId": "011-000002",
+          "transactionDatetime": "2023-01-07T08:00:00.000Z",
+          "transactionType": "Withdraw",
+          "amount": 50.00,
+          "note": "Withdraw for groceries"
+        },
+        {
+          "bankAccountTransactionId": "011-000003",
+          "transactionDatetime": "2023-01-08T08:00:00.000Z",
+          "transactionType": "Deposit",
+          "amount": 100.00,
+          "note": "Deposit from bonus"
+        },
+        {
+          "bankAccountTransactionId": "011-000004",
+          "transactionDatetime": "2023-01-09T08:00:00.000Z",
+          "transactionType": "Withdraw",
+          "amount": 75.00,
+          "note": "Withdraw for bills"
+        },
+        {
+          "bankAccountTransactionId": "011-000005",
+          "transactionDatetime": "2023-01-10T08:00:00.000Z",
+          "transactionType": "Deposit",
+          "amount": 150.00,
+          "note": "Deposit from investment"
+        },
+        {
+          "bankAccountTransactionId": "011-000006",
+          "transactionDatetime": "2023-01-11T08:00:00.000Z",
+          "transactionType": "Withdraw",
+          "amount": 30.00,
+          "note": "Withdraw for dinner"
+        },
+        {
+          "bankAccountTransactionId": "011-000007",
+          "transactionDatetime": "2023-01-12T08:00:00.000Z",
+          "transactionType": "Deposit",
+          "amount": 120.00,
+          "note": "Deposit from rental"
+        },
+        {
+          "bankAccountTransactionId": "011-000008",
+          "transactionDatetime": "2023-01-13T08:00:00.000Z",
+          "transactionType": "Withdraw",
+          "amount": 40.00,
+          "note": "Withdraw for movie tickets"
+        },
+        {
+          "bankAccountTransactionId": "011-000009",
+          "transactionDatetime": "2023-01-14T08:00:00.000Z",
+          "transactionType": "Deposit",
+          "amount": 80.00,
+          "note": "Deposit from side job"
+        },
+        {
+          "bankAccountTransactionId": "011-00000A",
+          "transactionDatetime": "2023-01-15T08:00:00.000Z",
+          "transactionType": "Withdraw",
+          "amount": 60.00,
+          "note": "Withdraw for shopping"
+        }
+      ]
+    },
+    {
+      "bankAccountId": "01-028-0001-0001",
+      "bankAccountDisplayName": "บัญชี ดอก 3%",
+      "bankAccountName": "นาย สวรรษ ล",
+      "bankName": "ธนาคารกสิกรไทย (TH-KBANK)",
+      "currentBalance": 500.00,
+      "bankAccountTransactions": [
+        {
+          "bankAccountTransactionId": "011-5C68AE",
+          "transactionDatetime": "2023-01-16T08:00:00.000Z",
+          "transactionType": "Deposit",
+          "amount": 200.00,
+          "note": "Deposit from salary"
+        },
+        {
+          "bankAccountTransactionId": "011-1FA0BD",
+          "transactionDatetime": "2023-01-17T08:00:00.000Z",
+          "transactionType": "Withdraw",
+          "amount": 50.00,
+          "note": "Withdraw for groceries"
+        },
+        {
+          "bankAccountTransactionId": "011-4D5E9F",
+          "transactionDatetime": "2023-01-18T08:00:00.000Z",
+          "transactionType": "Deposit",
+          "amount": 100.00,
+          "note": "Deposit from bonus"
+        },
+        {
+          "bankAccountTransactionId": "011-A2B1C7",
+          "transactionDatetime": "2023-01-19T08:00:00.000Z",
+          "transactionType": "Withdraw",
+          "amount": 75.00,
+          "note": "Withdraw for bills"
+        },
+        {
+          "bankAccountTransactionId": "011-9763DF",
+          "transactionDatetime": "2023-01-20T08:00:00.000Z",
+          "transactionType": "Deposit",
+          "amount": 150.00,
+          "note": "Deposit from investment"
+        },
+        {
+          "bankAccountTransactionId": "011-E96D2C",
+          "transactionDatetime": "2023-01-21T08:00:00.000Z",
+          "transactionType": "Withdraw",
+          "amount": 30.00,
+          "note": "Withdraw for dinner"
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "assetUniqueId": "02-94D8A7",
+      "dateFirstPurchased": "2023-12-15T12:06:17+07:00",
+      "assetType": "หุ้น",
+      "assetName": "ABC Company",
+      "amount": 100,
+      "unitPrice": 50.25
+    },
+    {
+      "assetUniqueId": "02-8B63CE",
+      "dateFirstPurchased": "2023-12-16T08:00:00.000Z",
+      "assetType": "ทองคำ",
+      "assetName": "Gold Bullion",
+      "amount": 5.25,
+      "unitPrice": 1800.75
+    },
+    {
+      "assetUniqueId": "02-17D9B6",
+      "dateFirstPurchased": "2023-12-17T10:30:00.000Z",
+      "assetType": "สลากออมสิน",
+      "assetName": "Government Savings Bond",
+      "amount": 100,
+      "unitPrice": 100.00
+    }
+  ],
+  "investingTransactions": [
+    {
+      "investingTransactionUniqueId": "03-1A2B3C",
+      "investingTransactionDatetime": "2023-01-21T08:00:00.000Z",
+      "transactionCategory": "ซื้อ",
+      "assetType": "หุ้น",
+      "assetName": "XYZ Company",
+      "amount": 50,
+      "unitPrice": 75.50
+    },
+    {
+      "investingTransactionUniqueId": "03-4D5E6F",
+      "investingTransactionDatetime": "2023-01-22T08:00:00.000Z",
+      "transactionCategory": "ขาย",
+      "assetType": "ทองคำ",
+      "assetName": "Gold Bullion",
+      "amount": 3.75,
+      "unitPrice": 1850.25
+    },
+    {
+      "investingTransactionUniqueId": "03-4865DC",
+      "investingTransactionDatetime": "2023-01-23T08:00:00.000Z",
+      "transactionCategory": "ซื้อ",
+      "assetType": "หุ้น",
+      "assetName": "MNO Corporation",
+      "amount": 30,
+      "unitPrice": 100.75
+    },
+    {
+      "investingTransactionUniqueId": "03-E758AC",
+      "investingTransactionDatetime": "2023-01-24T08:00:00.000Z",
+      "transactionCategory": "ขาย",
+      "assetType": "สลากออมสิน",
+      "assetName": "National Savings Bond",
+      "amount": 10,
+      "unitPrice": 105.00
+    },
+    {
+      "investingTransactionUniqueId": "03-78CB2F",
+      "investingTransactionDatetime": "2023-01-25T08:00:00.000Z",
+      "transactionCategory": "ซื้อ",
+      "assetType": "หุ้น",
+      "assetName": "PQR Corporation",
+      "amount": 20,
+      "unitPrice": 80.25
+    },
+    {
+      "investingTransactionUniqueId": "03-67A7C8",
+      "investingTransactionDatetime": "2023-01-26T08:00:00.000Z",
+      "transactionCategory": "ขาย",
+      "assetType": "ทองคำ",
+      "assetName": "Gold Bullion",
+      "amount": 2,
+      "unitPrice": 1900.75
+    }
+  ],
+  "debts": [
+    {
+      "debtUniqueId": "04-3A7B9E",
+      "debtCreatedDate": "2021-01-01T14:39:54.981Z",
+      "debtDisplayName": "Sample Debt1 Display Name",
+      "lender": "John Doe",
+      "debtType": "Personal Loan",
+      "dateOfBill": "15",
+      "numberOfInstallment": 12,
+      "loanAmount": 5200.00,
+      "loanBalance": 3500.00,
+      "interestRate(%)": 6.00,
+      "installmentAmount": 450,
+      "debtPayments": [
+        {
+          "debtPaymentUniqueId": "041-A7F3E2",
+          "paidDate": "2021-02-01T14:39:54.981Z",
+          "paidAmount": 350.00,
+          "loanBalanceLeft": 4850.00
+        },
+        {
+          "debtPaymentUniqueId": "041-B8C4D1",
+          "paidDate": "2021-03-01T14:39:54.981Z",
+          "paidAmount": 450.00,
+          "loanBalanceLeft": 4400.00
+        },
+        {
+          "debtPaymentUniqueId": "041-C9D5E0",
+          "paidDate": "2021-04-01T14:39:54.981Z",
+          "paidAmount": 450.00,
+          "loanBalanceLeft": 3950.00
+        },
+        {
+          "debtPaymentUniqueId": "041-D6E7F9",
+          "paidDate": "2021-05-01T14:39:54.981Z",
+          "paidAmount": 450.00,
+          "loanBalanceLeft": 3500.00
+        }
+      ]
+    },
+    {
+      "debtUniqueId": "04-2C6D9A",
+      "debtCreatedDate": "2021-02-02T14:39:54.981Z",
+      "debtDisplayName": "Sample Debt2 Display Name",
+      "lender": "Jane Smith",
+      "debtType": "Credit Card",
+      "dateOfBill": "1",
+      "numberOfInstallment": 3,
+      "loanAmount": 1200.00,
+      "loanBalance": 300.00,
+      "interestRate(%)": 8.00,
+      "installmentAmount": null,
+      "debtPayments": [
+        {
+          "debtPaymentUniqueId": "041-A1F4C3",
+          "paidDate": "2021-02-03T10:00:00.000Z",
+          "paidAmount": 150.00,
+          "loanBalanceLeft": 1050.00
+        },
+        {
+          "debtPaymentUniqueId": "041-B5C3D7",
+          "paidDate": "2021-03-03T10:00:00.000Z",
+          "paidAmount": 200.00,
+          "loanBalanceLeft": 850.00
+        },
+        {
+          "debtPaymentUniqueId": "041-C8E4F9",
+          "paidDate": "2021-04-02T10:00:00.000Z",
+          "paidAmount": 250.00,
+          "loanBalanceLeft": 600.00
+        },
+        {
+          "debtPaymentUniqueId": "041-D7F2A8",
+          "paidDate": "2021-05-02T10:00:00.000Z",
+          "paidAmount": 300.00,
+          "loanBalanceLeft": 300.00
+        }
+      ]
+    }
+    
+  ],
+  "userTransactions": [
+    {
+      "transactionUniqueId": "05-1A2B3C",
+      "userTransactionDateCreated": "2023-01-12T09:00:00.000Z",
+      "category": "รายรับ",
+      "tagging": "Salary",
+      "type": "Direct Transfer",
+      "senderUserBankName": null,
+      "senderUserBankAccountId": null,
+      "receiverUserBankName": "ธนาคารกรุงเทพ (TH-BBL)",
+      "receiverUserBankAccountId": "222-0002-0002",
+      "amount": 25000.00,
+      "note": "Monthly salary"
+    },
+    {
+      "transactionUniqueId": "05-4D5E6F",
+      "userTransactionDateCreated": "2023-01-15T13:00:00.000Z",
+      "category": "รายจ่าย",
+      "tagging": "Utilities",
+      "type": "Bill Payment",
+      "senderUserBankName": "ธนาคารไทยพาณิชย์ (TH-SCB)",
+      "senderUserBankAccountId": "333-0003-0003",
+      "receiverUserBankName": null,
+      "receiverUserBankAccountId": null,
+      "amount": 1500.00,
+      "note": "Electricity bill"
+    },
+    {
+      "transactionUniqueId": "05-7A8B9C",
+      "userTransactionDateCreated": "2023-01-18T16:00:00.000Z",
+      "category": "ย้ายเงิน",
+      "tagging": "Transfer to Savings",
+      "type": "Internal Transfer",
+      "senderUserBankName": "ธนาคารกสิกรไทย (TH-KBANK)",
+      "senderUserBankAccountId": "01-111-0001-0001",
+      "receiverUserBankName": "ธนาคารกรุงไทย (TH-KTB)",
+      "receiverUserBankAccountId": "444-0004-0004",
+      "amount": 5000.00,
+      "note": "Monthly savings"
+    },
+    {
+      "transactionUniqueId": "05-0A1B2C",
+      "userTransactionDateCreated": "2023-01-20T10:00:00.000Z",
+      "category": "รายรับ",
+      "tagging": "Freelance",
+      "type": "Payment",
+      "senderUserBankName": null,
+      "senderUserBankAccountId": null,
+      "receiverUserBankName": "ธนาคารออมสิน (TH-GSB)",
+      "receiverUserBankAccountId": "555-0005-0005",
+      "amount": 8000.00,
+      "note": "Freelance project payment"
+    },
+    {
+      "transactionUniqueId": "05-3D4E5F",
+      "userTransactionDateCreated": "2023-01-22T14:00:00.000Z",
+      "category": "รายจ่าย",
+      "tagging": "Shopping",
+      "type": "POS Purchase",
+      "senderUserBankName": "ธนาคารไทยพาณิชย์ (TH-SCB)",
+      "senderUserBankAccountId": "333-0003-0003",
+      "receiverUserBankName": null,
+      "receiverUserBankAccountId": null,
+      "amount": 4200.00,
+      "note": "New laptop purchase"
+    }
+  ]
+}
