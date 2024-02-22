@@ -21,7 +21,7 @@
           "note": "Deposit from Toss"
         },
         {
-          "bankAccountTransactionId": "011-8D76D6",
+          "bankAccountTransactionUniqueId": "011-8D76D6",
           "transactionDatetime": "2023-01-02T08:00:00.000Z",
           "transactionType": "Withdraw",
           "amount": 50.00,
@@ -37,21 +37,21 @@
       "currentBalance": 500.00,
       "bankAccountTransactions": [
         {
-          "bankAccountTransactionId": "011-7B19E8",
+          "bankAccountTransactionUniqueId": "011-7B19E8",
           "transactionDatetime": "2023-01-03T08:00:00.000Z",
           "transactionType": "Deposit",
           "amount": 100.00,
           "note": "Deposit from Lottery"
         },
         {
-          "bankAccountTransactionId": "011-18AAB4",
+          "bankAccountTransactionUniqueId": "011-18AAB4",
           "transactionDatetime": "2023-01-04T08:00:00.000Z",
           "transactionType": "Withdraw",
           "amount": 50.00,
           "note": "Withdraw for travelling"
         },
         {
-          "bankAccountTransactionId": "011-F9DCE5",
+          "bankAccountTransactionUniqueId": "011-F9DCE5",
           "transactionDatetime": "2023-01-05T08:00:00.000Z",
           "transactionType": "Deposit",
           "amount": 80.00,
@@ -67,70 +67,70 @@
       "currentBalance": 500.00,
       "bankAccountTransactions": [
         {
-          "bankAccountTransactionId": "011-000001",
+          "bankAccountTransactionUniqueId": "011-000001",
           "transactionDatetime": "2023-01-06T08:00:00.000Z",
           "transactionType": "Deposit",
           "amount": 200.00,
           "note": "Initial deposit"
         },
         {
-          "bankAccountTransactionId": "011-000002",
+          "bankAccountTransactionUniqueId": "011-000002",
           "transactionDatetime": "2023-01-07T08:00:00.000Z",
           "transactionType": "Withdraw",
           "amount": 50.00,
           "note": "Withdraw for groceries"
         },
         {
-          "bankAccountTransactionId": "011-000003",
+          "bankAccountTransactionUniqueId": "011-000003",
           "transactionDatetime": "2023-01-08T08:00:00.000Z",
           "transactionType": "Deposit",
           "amount": 100.00,
           "note": "Deposit from bonus"
         },
         {
-          "bankAccountTransactionId": "011-000004",
+          "bankAccountTransactionUniqueId": "011-000004",
           "transactionDatetime": "2023-01-09T08:00:00.000Z",
           "transactionType": "Withdraw",
           "amount": 75.00,
           "note": "Withdraw for bills"
         },
         {
-          "bankAccountTransactionId": "011-000005",
+          "bankAccountTransactionUniqueId": "011-000005",
           "transactionDatetime": "2023-01-10T08:00:00.000Z",
           "transactionType": "Deposit",
           "amount": 150.00,
           "note": "Deposit from investment"
         },
         {
-          "bankAccountTransactionId": "011-000006",
+          "bankAccountTransactionUniqueId": "011-000006",
           "transactionDatetime": "2023-01-11T08:00:00.000Z",
           "transactionType": "Withdraw",
           "amount": 30.00,
           "note": "Withdraw for dinner"
         },
         {
-          "bankAccountTransactionId": "011-000007",
+          "bankAccountTransactionUniqueId": "011-000007",
           "transactionDatetime": "2023-01-12T08:00:00.000Z",
           "transactionType": "Deposit",
           "amount": 120.00,
           "note": "Deposit from rental"
         },
         {
-          "bankAccountTransactionId": "011-000008",
+          "bankAccountTransactionUniqueId": "011-000008",
           "transactionDatetime": "2023-01-13T08:00:00.000Z",
           "transactionType": "Withdraw",
           "amount": 40.00,
           "note": "Withdraw for movie tickets"
         },
         {
-          "bankAccountTransactionId": "011-000009",
+          "bankAccountTransactionUniqueId": "011-000009",
           "transactionDatetime": "2023-01-14T08:00:00.000Z",
           "transactionType": "Deposit",
           "amount": 80.00,
           "note": "Deposit from side job"
         },
         {
-          "bankAccountTransactionId": "011-00000A",
+          "bankAccountTransactionUniqueId": "011-00000A",
           "transactionDatetime": "2023-01-15T08:00:00.000Z",
           "transactionType": "Withdraw",
           "amount": 60.00,
@@ -146,42 +146,42 @@
       "currentBalance": 500.00,
       "bankAccountTransactions": [
         {
-          "bankAccountTransactionId": "011-5C68AE",
+          "bankAccountTransactionUniqueId": "011-5C68AE",
           "transactionDatetime": "2023-01-16T08:00:00.000Z",
           "transactionType": "Deposit",
           "amount": 200.00,
           "note": "Deposit from salary"
         },
         {
-          "bankAccountTransactionId": "011-1FA0BD",
+          "bankAccountTransactionUniqueId": "011-1FA0BD",
           "transactionDatetime": "2023-01-17T08:00:00.000Z",
           "transactionType": "Withdraw",
           "amount": 50.00,
           "note": "Withdraw for groceries"
         },
         {
-          "bankAccountTransactionId": "011-4D5E9F",
+          "bankAccountTransactionUniqueId": "011-4D5E9F",
           "transactionDatetime": "2023-01-18T08:00:00.000Z",
           "transactionType": "Deposit",
           "amount": 100.00,
           "note": "Deposit from bonus"
         },
         {
-          "bankAccountTransactionId": "011-A2B1C7",
+          "bankAccountTransactionUniqueId": "011-A2B1C7",
           "transactionDatetime": "2023-01-19T08:00:00.000Z",
           "transactionType": "Withdraw",
           "amount": 75.00,
           "note": "Withdraw for bills"
         },
         {
-          "bankAccountTransactionId": "011-9763DF",
+          "bankAccountTransactionUniqueId": "011-9763DF",
           "transactionDatetime": "2023-01-20T08:00:00.000Z",
           "transactionType": "Deposit",
           "amount": 150.00,
           "note": "Deposit from investment"
         },
         {
-          "bankAccountTransactionId": "011-E96D2C",
+          "bankAccountTransactionUniqueId": "011-E96D2C",
           "transactionDatetime": "2023-01-21T08:00:00.000Z",
           "transactionType": "Withdraw",
           "amount": 30.00,

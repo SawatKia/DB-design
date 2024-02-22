@@ -5,44 +5,42 @@
 //   "Set quicktype target language"
 
 export interface Userdata {
-    userUniqueId:          string;
-    dateCreated:           string;
-    userName:              string;
-    hashedPassword:        string;
-    dateOfBirth:           string;
-    bankAccounts:          BankAccount[];
-    assets:                Asset[];
+    userUniqueId: string;
+    dateCreated: string;
+    userName: string;
+    hashedPassword: string;
+    dateOfBirth: string;
+    bankAccounts: BankAccount[];
+    assets: Asset[];
     investingTransactions: InvestingTransaction[];
-    debts:                 Debt[];
-    userTransactions:      UserTransaction[];
+    debts: Debt[];
+    userTransactions: UserTransaction[];
 }
 
 export interface Asset {
-    assetUniqueId:      string;
+    assetUniqueId: string;
     dateFirstPurchased: string;
-    assetType:          string;
-    assetName:          string;
-    amount:             number;
-    unitPrice:          number;
+    assetType: string;
+    assetName: string;
+    amount: number;
+    unitPrice: number;
 }
 
 export interface BankAccount {
-    bankAccountId:           string;
-    bankAccountDisplayName:  string;
-    bankAccountName:         string;
-    bankName:                string;
-    currentBalance:          number;
+    bankAccountId: string;
+    bankAccountDisplayName: string;
+    bankAccountName: string;
+    bankName: string;
+    currentBalance: number;
     bankAccountTransactions: BankAccountTransaction[];
 }
 
 export interface BankAccountTransaction {
-    bankAccountTransactionUniqueId?: string;
-    transactionDatetime:             string;
-    transactionType:                 TransactionType;
-    amount:                          number;
-    note:                            string;
-    bankAccountTransactionId?:       string;
-}
+    bankAccountTransactionUniqueId: string;
+    transactionDatetime: string;
+    transactionType: TransactionType;
+    amount: number;
+    note: string;}
 
 export enum TransactionType {
     Deposit = "Deposit",
@@ -50,54 +48,82 @@ export enum TransactionType {
 }
 
 export interface Debt {
-    debtUniqueId:        string;
-    debtCreatedDate:     string;
-    debtDisplayName:     string;
-    lender:              string;
-    debtType:            string;
-    dateOfBill:          string;
+    debtUniqueId: string;
+    debtCreatedDate: string;
+    debtDisplayName: string;
+    lender: string;
+    debtType: string;
+    dateOfBill: string;
     numberOfInstallment: number;
-    loanAmount:          number;
-    loanBalance:         number;
-    "interestRate(%)":   number;
-    installmentAmount:   number | null;
-    debtPayments:        DebtPayment[];
+    loanAmount: number;
+    loanBalance: number;
+    "interestRate(%)": number;
+    installmentAmount: number | null;
+    debtPayments: DebtPayment[];
 }
 
 export interface DebtPayment {
     debtPaymentUniqueId: string;
-    paidDate:            string;
-    paidAmount:          number;
-    loanBalanceLeft:     number;
+    paidDate: string;
+    paidAmount: number;
+    loanBalanceLeft: number;
 }
 
 export interface InvestingTransaction {
     investingTransactionUniqueId: string;
     investingTransactionDatetime: string;
-    transactionCategory:          string;
-    assetType:                    string;
-    assetName:                    string;
-    amount:                       number;
-    unitPrice:                    number;
+    transactionCategory: string;
+    assetType: string;
+    assetName: string;
+    amount: number;
+    unitPrice: number;
 }
 
 export interface UserTransaction {
-    transactionUniqueId:        string;
+    transactionUniqueId: string;
     userTransactionDateCreated: string;
-    category:                   Category;
-    tagging:                    string;
-    type:                       string;
-    senderUserBankName:         null | string;
-    senderUserBankAccountId:    null | string;
-    receiverUserBankName:       null | string;
-    receiverUserBankAccountId:  null | string;
-    amount:                     number;
-    note:                       string;
+    category: Category;
+    tagging: (IncomeTag | ExpenseTag)[];
+    type: IncomeType | ExpenseType;
+    senderUserBankName: null | string;
+    senderUserBankAccountId: null | string;
+    receiverUserBankName: null | string;
+    receiverUserBankAccountId: null | string;
+    amount: number;
+    note: string;
 }
 
-export enum Category{
+export enum Category {
     Expense = "รายจ่าย",
     Income = "รายรับ",
     Transfer = "ย้ายเงิน",
 }
 
+export enum IncomeTag {
+    Salary = "เงินเดือนประจำ",
+    Wage = "ค่าจ้าง",
+    Passive = "รายได้จากการลงทุน",
+}
+
+export enum ExpenseTag {
+    Static = "ค่าใช้จ่ายคงที่",
+    Dynamic = "ค่าใช้จ่ายผันแปร",
+    Debt = "ชำระหนี้",
+}
+
+export enum IncomeType {
+    Salary = "เงินเดือน",
+    Interest = "ดอกเบี้ย",
+    Dividend = "ปันผล",
+    Profit = "กำไร",
+    Rent = "ค่าเช่า",
+    Other = "อื่นๆ",
+}
+
+export enum ExpenseType {
+    Food = "ค่าอาหาร",
+    Transportation = "ค่าเดินทาง",
+    CreditCard = "บัตรเครดิต",
+    Utilities = "สาธารณูปโภค",
+    Other = "อื่นๆ",
+}
