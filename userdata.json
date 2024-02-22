@@ -1,9 +1,10 @@
 {
   "userUniqueId": "2A7F5B",
   "dateCreated": "2021-05-06T14:39:54.981Z",
-  "userName": "Sawatastic",
-  "hashedPassword": "65ce6444ca85d6e94220aaba76677727",
-  "dateOfBirth": "2000-03-14T07:46:36.611Z",
+  "userName": "john_doe_92",
+  "email": "nH9zN@example.com",
+  "hashedPassword": "d8578edf8458ce06fbc5bb76a58c5ca4",
+  "dateOfBirth": "1990-01-01T00:00:00Z",
   "bankAccounts": [
     {
       "bankAccountId": "01-011-0001-0001",
@@ -350,7 +351,6 @@
         }
       ]
     }
-    
   ],
   "userTransactions": [
     {
