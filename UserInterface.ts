@@ -10,6 +10,7 @@ export interface Userdata {
     userName: string;
     hashedPassword: string;
     dateOfBirth: string;
+    notifications: Notification[];
     bankAccounts: BankAccount[];
     assets: Asset[];
     investingTransactions: InvestingTransaction[];
@@ -17,6 +18,21 @@ export interface Userdata {
     userTransactions: UserTransaction[];
 }
 
+export interface Notification{
+    notificationUniqueId: string;
+    notificationDatetime: string;
+    notificationType: NotiType;
+    notificationTitle: string;
+    notificationDesciption: string;
+}
+
+export enum NotiType{
+    stocks = "หุ้น",
+    app = "แอพ",
+    debt = "เงินกู้",
+    investing = "การลงทุน"
+    interest = "ดอกเบี้ย"
+}
 export interface Asset {
     assetUniqueId: string;
     dateFirstPurchased: string;
@@ -28,6 +44,7 @@ export interface Asset {
 
 export interface BankAccount {
     bankAccountId: string;
+    favourite: boolean;
     bankAccountDisplayName: string;
     bankAccountName: string;
     bankName: string;
@@ -90,6 +107,7 @@ export interface UserTransaction {
     receiverUserBankName: null | string;
     receiverUserBankAccountId: null | string;
     amount: number;
+    slipImagePath: null | string;
     note: string;
 }
 
