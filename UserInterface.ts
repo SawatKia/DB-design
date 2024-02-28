@@ -30,7 +30,7 @@ export enum NotiType{
     stocks = "หุ้น",
     app = "แอพ",
     debt = "เงินกู้",
-    investing = "การลงทุน"
+    investing = "การลงทุน",
     interest = "ดอกเบี้ย"
 }
 export interface Asset {
