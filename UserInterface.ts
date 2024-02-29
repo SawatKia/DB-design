@@ -8,38 +8,15 @@ export interface Userdata {
     userUniqueId: string;
     dateCreated: string;
     userName: string;
+    email: string;
     hashedPassword: string;
     dateOfBirth: string;
-    notifications: Notification[];
     bankAccounts: BankAccount[];
     assets: Asset[];
     investingTransactions: InvestingTransaction[];
     debts: Debt[];
     userTransactions: UserTransaction[];
-}
-
-export interface Notification{
-    notificationUniqueId: string;
-    notificationDatetime: string;
-    notificationType: NotiType;
-    notificationTitle: string;
-    notificationDesciption: string;
-}
-
-export enum NotiType{
-    stocks = "หุ้น",
-    app = "แอพ",
-    debt = "เงินกู้",
-    investing = "การลงทุน",
-    interest = "ดอกเบี้ย"
-}
-export interface Asset {
-    assetUniqueId: string;
-    dateFirstPurchased: string;
-    assetType: string;
-    assetName: string;
-    amount: number;
-    unitPrice: number;
+    notifications: Notification[];
 }
 
 export interface BankAccount {
@@ -57,11 +34,31 @@ export interface BankAccountTransaction {
     transactionDatetime: string;
     transactionType: TransactionType;
     amount: number;
-    note: string;}
+    note: string;
+}
 
 export enum TransactionType {
     Deposit = "Deposit",
     Withdraw = "Withdraw",
+}
+
+export interface Asset {
+    assetUniqueId: string;
+    dateFirstPurchased: string;
+    assetType: string;
+    assetName: string;
+    amount: number;
+    unitPrice: number;
+}
+
+export interface InvestingTransaction {
+    investingTransactionUniqueId: string;
+    investingTransactionDatetime: string;
+    transactionCategory: string;
+    assetType: string;
+    assetName: string;
+    amount: number;
+    unitPrice: number;
 }
 
 export interface Debt {
@@ -84,16 +81,6 @@ export interface DebtPayment {
     paidDate: string;
     paidAmount: number;
     loanBalanceLeft: number;
-}
-
-export interface InvestingTransaction {
-    investingTransactionUniqueId: string;
-    investingTransactionDatetime: string;
-    transactionCategory: string;
-    assetType: string;
-    assetName: string;
-    amount: number;
-    unitPrice: number;
 }
 
 export interface UserTransaction {
@@ -144,4 +131,20 @@ export enum ExpenseType {
     CreditCard = "บัตรเครดิต",
     Utilities = "สาธารณูปโภค",
     Other = "อื่นๆ",
+}
+
+export interface Notification{
+    notificationUniqueId: string;
+    notificationDatetime: string;
+    notificationType: NotiType;
+    notificationTitle: string;
+    notificationDesciption: string;
+}
+
+export enum NotiType{
+    stocks = "หุ้น",
+    app = "แอพ",
+    debt = "เงินกู้",
+    investing = "การลงทุน",
+    interest = "ดอกเบี้ย"
 }
