@@ -19,6 +19,7 @@ export interface Userdata {
     notifications: Notification[];
 }
 
+//* main interface
 export interface BankAccount {
     bankAccountId: string;
     favourite: boolean;
@@ -42,6 +43,7 @@ export enum TransactionType {
     Withdraw = "Withdraw",
 }
 
+//* main interface
 export interface Asset {
     assetUniqueId: string;
     dateFirstPurchased: string;
@@ -51,6 +53,7 @@ export interface Asset {
     unitPrice: number;
 }
 
+//* main interface
 export interface InvestingTransaction {
     investingTransactionUniqueId: string;
     investingTransactionDatetime: string;
@@ -83,6 +86,7 @@ export interface DebtPayment {
     loanBalanceLeft: number;
 }
 
+//* main interface
 export interface UserTransaction {
     transactionUniqueId: string;
     userTransactionDateCreated: string;
@@ -133,6 +137,7 @@ export enum ExpenseType {
     Other = "อื่นๆ",
 }
 
+//* main interface
 export interface Notification{
     notificationUniqueId: string;
     notificationDatetime: string;
