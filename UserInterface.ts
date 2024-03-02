@@ -17,6 +17,7 @@ export interface Userdata {
     debts: Debt[];
     userTransactions: UserTransaction[];
     notifications: Notification[];
+    notificationSetting: NotificationSetting;
 }
 
 //* main interface
@@ -64,6 +65,7 @@ export interface InvestingTransaction {
     unitPrice: number;
 }
 
+//* main interface
 export interface Debt {
     debtUniqueId: string;
     debtCreatedDate: string;
@@ -152,4 +154,20 @@ export enum NotiType{
     debt = "เงินกู้",
     investing = "การลงทุน",
     interest = "ดอกเบี้ย"
+}
+
+//* main interface
+export interface NotificationSetting {
+    userTransactionRecording: Ing;
+    debtPaymentsNotifying:    Ing;
+}
+
+export interface Ing {
+    isnotification: boolean;
+    frequency:      Frequency;
+}
+
+export interface Frequency {
+    frequencyType: string;
+    dayOfMonth:    number | null;
 }
