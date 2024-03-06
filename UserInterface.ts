@@ -48,10 +48,17 @@ export enum TransactionType {
 export interface Asset {
     assetUniqueId: string;
     dateFirstPurchased: string;
-    assetType: string;
+    assetType: AssetType;
     assetName: string;
     amount: number;
     unitPrice: number;
+}
+
+export enum AssetType{
+    Gold = "ทองคำ",
+    Stock = "หุ้น",
+    Real_Estate = "อสังหา",
+    Saving_Lottery = "สลากออมทรัพย์"
 }
 
 //* main interface
